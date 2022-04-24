@@ -1,0 +1,51 @@
+Quality Attribute Specification Assignment 
+
+1-You are working in company XYZ required you to develop ticketing system for Cinema, the owner of Cinema is focusing on two things:
+a.Security system for purchase ticket using Credit Cards.
+b.The performance of booking tickets.
+Write scenarios for each requirement to get you client signature.
+2-You are working in governmental sector and your boss required you to develop architecture to remove the overhead of official stamping for the documents without losing security.
+Propose a proper architecture tactic to achieve this feature.
+3-You are working in a starting company with limited budget and your boss required you suggest some tactics to reduce the maintainability cost of the software.
+Propose three tactics for this objective.
+
+Submit your answers at in your github host.
+We will pick up randomly 5 students next session to present their answers.
+
+1.
+a:
+Source of stimulus:  Cinema
+Stimulus: Enhanced security system for ticket purchases with credit cards by detecting information entered when using credit cards
+Environment: tickiting System
+Artifact: under normal operations
+Response: Gives correct or incorrect feedback when the user swipes and enters information 
+Response measure:  under 5 seconds
+When we use a credit card to purchase tickets, the credit card is placed on the credit card machine, the credit card machine reads the information in the credit card,
+the information is encrypted when it is read and sent, and then sent to the server of the corresponding bank. 
+This information cannot be read without authorization.
+b.
+Source of stimulus: Cinema
+Stimulus: increase the performance of booking tickets 
+Environment: booking System
+Artifact: under normal operations
+Response: process transaction of booking tickets 
+Response measure: with average latency of 2 seconds and process 500 transactions per second
+Under normal circumstances, users can make five hundred booking transactions in one minute, and
+the average processing time of these transactions does not exceed five seconds
+
+2.First, the architecture needs to detect the attack and identify potential errors (verifying message integrity tactic) and then the architecture needs to 
+defend against the attack and encrypt the document. At the same time the architecture needs to run to detect and lock the user attacking this file (Lock Computer Tactic)
+and revoke their access. The last is the self-recovery of the architecture, allowing the architecture to achieve the normal operation of the system during the attack (CIA)
+3.Use advanced software development techniques and tools.:Using advanced software development technology can greatly improve software quality and reduce software costs. 
+The object-oriented software development method is a very practical and powerful software development method.
+The software system developed by the object-oriented method has good stability, is relatively easy to modify, is relatively easy to understand, and is easy to 
+test and debug. Therefore, maintainability it is good.
+
+Choose a maintainable language.:The choice of programming language has a big impact on maintenance. Low-level languages are hard to master, 
+hard to understand, and therefore hard to maintain. In general, high-level languages ​are easier to understand than low-level languages, and 
+fourth-generation languages are easier to understand, easier to program, easier to modify, and improved maintainability.
+
+Improve the documentation of the program: Program documentation is the description and supplement of program function, 
+relationship between program components, program design strategy, and historical data of program implementation process. 
+Program documentation plays an important role in improving program readability. In order to maintain the program, one must read and understand the 
+program documentation.
